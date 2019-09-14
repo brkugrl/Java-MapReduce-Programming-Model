@@ -54,7 +54,7 @@ public class Inverted {
 		ArrayList l = new ArrayList<String>();
 		
 		l.addAll(mapFunc("berke ugurlu berke berke john coltrane", "doc1" ));
-		l.addAll(mapFunc("berke kulu berke kulu", "doc2" ));
+		l.addAll(mapFunc("berke john berke john", "doc2" ));
 			
 		System.out.println("Set of Datas after calling mapFunc\n"+ l);
 		
